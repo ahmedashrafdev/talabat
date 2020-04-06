@@ -1,15 +1,18 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
-Vue.use(Vuex)
+import auth from "./auth.module";
+import htmlClass from "./htmlclass.module";
+import config from "./config.module";
+import breadcrumbs from "./breadcrumbs.module";
+
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    auth,
+    htmlClass,
+    config,
+    breadcrumbs
   }
-})
+});

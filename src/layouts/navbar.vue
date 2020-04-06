@@ -1,15 +1,15 @@
 <template>
-  <div class="home">
-   
-   HOme
+  <div>
+      nabv
   </div>
 </template>
 
 <script>
-
-
 export default {
-  name: 'Home',
-  
+
 }
 </script>
+
+<style>
+
+</style>
